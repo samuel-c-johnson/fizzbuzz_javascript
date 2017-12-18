@@ -8,6 +8,8 @@ function fizzbuzz(number) {
   } else {
     return number;
   }
+}
 
-
+for (i = 0; i < 50; i++) {
+  console.log(fizzbuzz(i));
 }
